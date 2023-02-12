@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+
+header{
+    background-color: black;
+}
+
+header > h1{
+    font-family: 'Passion One', cursive;
+    color: white;
+    text-align: center;
+    font-size: min(160px, 10vw);
+    padding-top: 50px;
+}
+
+header > h1 > span{
+    font-size: min(219px, 14vw);
+}
+
+header > h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5vh;
+    padding-bottom: 50px;
+    font-weight: lighter;
+}
+
+header > h2 > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header > h2 > a:hover{
+    text-decoration: 2px underline;
+}
+
+/* Cordel */
+
+section > p{
+    font-family: 'Sriracha', cursive;
+    font-size: min(76px, 3.5vw);
+    line-height:2em; /* espaço nas palavras de cima e de baixo */
+    padding: 10vh 0 0 30px;
+}
+
+section#normal{
+    padding-bottom: 10vh ;
+}
+
+section#normal1{
+    padding-bottom: 10vh ;
+}
+
+section#normal2{
+    padding-bottom: 10vh;
+}
+
+section#imagemCi{
+    background-image: url('imagens/background001.jpg');
+    height: 76vw;
+}
+
+section#imagemCi2{
+    background-image: url('imagens/background002.jpg') ;
+   height: 76vw;
+}
+
+section.imagem{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    box-shadow: inset 5px 4px 9px 2px rgba(0, 0, 0, 0.408);
+}
+
+section > p.segundop{
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.795);
+}
+
+section > p#imagem1{
+    margin-left: 30px;
+    margin-top: 13%;
+}
+
+section > p#imagem2{
+    margin-left: 30px;
+    margin-top: 13%;
+}
+
+/* Rodapé */
+
+footer > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;    
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover{
+    text-decoration: 2px underline;
+}
