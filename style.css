@@ -48,7 +48,7 @@ header > h2 > a:hover{
 
 section > p{
     font-family: 'Sriracha', cursive;
-    font-size: min(76px, 3.5vw);
+    font-size: min(76px, 5.5vw);
     line-height:2em; /* espaço nas palavras de cima e de baixo */
     padding: 10vh 0 0 30px;
 }
